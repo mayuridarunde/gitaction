@@ -21,7 +21,7 @@ jobs:
         run: python --version
 
       - name: Install required depencies
-        run: pip install pandas
+        run: pip install -r reuirement.txt
 
       - name: run extract.py
         run: python extract.py 
